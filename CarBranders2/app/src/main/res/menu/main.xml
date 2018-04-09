@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_menu_share"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/identity"
+        android:title="Paramètres"
+        android:icon="@drawable/ic_menu_gallery"
+        />
+
+    <item android:id="@+id/picture"
+        android:title="Photo"
+        android:icon="@drawable/ic_menu_camera"
+        />
+
+    <item android:id="@+id/pos_send"
+        android:title="Transfert"
+        android:icon="@drawable/ic_menu_camera"
+        />
+</menu>
